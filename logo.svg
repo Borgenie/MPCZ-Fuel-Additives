@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Gear/cog shape -->
+  <path d="M100,18 L107,12 L113,8 L113,22 Q120,23 127,26 L136,15 L143,17 L143,31 Q149,36 154,42 L168,38 L172,44 L162,54 Q165,61 166,68 L180,72 L180,80 L166,84 Q165,91 162,98 L172,108 L168,114 L154,110 Q149,116 143,121 L143,135 L136,137 L127,126 Q120,129 113,130 L113,144 L107,148 L100,142 L93,148 L87,144 L87,130 Q80,129 73,126 L64,137 L57,135 L57,121 Q51,116 46,110 L32,114 L28,108 L38,98 Q35,91 34,84 L20,80 L20,72 L34,68 Q35,61 38,54 L28,44 L32,38 L46,42 Q51,36 57,31 L57,17 L64,15 L73,26 Q80,23 87,22 L87,8 L93,12 Z" fill="#2a2a2a"/>
+  <!-- Inner circle -->
+  <circle cx="100" cy="80" r="52" fill="#1a1a1a"/>
+  <!-- MPCZ bold text -->
+  <text x="100" y="91" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="28" fill="#2a2a2a" letter-spacing="1">MPCZ</text>
+  <!-- Curved text top: NITRO FUEL ADDITIVE -->
+  <path id="topArc" d="M 52,80 A 48,48 0 0,1 148,80" fill="none"/>
+  <text font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#2a2a2a" letter-spacing="1.5">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">NITRO FUEL ADDITIVE</textPath>
+  </text>
+  <!-- Curved text bottom: ENGINE PROTECTANT -->
+  <path id="bottomArc" d="M 52,80 A 48,48 0 0,0 148,80" fill="none"/>
+  <text font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#2a2a2a" letter-spacing="1.5">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">ENGINE PROTECTANT</textPath>
+  </text>
+</svg>
