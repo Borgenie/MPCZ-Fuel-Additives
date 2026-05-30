@@ -513,6 +513,92 @@ h2 .dim { color: #444; }
   margin-top: 0.4rem;
 }
 
+/* DOSING TABLE */
+.dose-table-wrap {
+  overflow-x: auto;
+  margin-top: 2rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.dose-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+  min-width: 520px;
+}
+.dose-table thead tr {
+  background: #0e0e0e;
+  border-bottom: 2px solid var(--accent);
+}
+.dose-table thead th {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.dose-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.dose-table tbody tr:last-child { border-bottom: none; }
+.dose-table tbody tr:hover { background: #111; }
+.dose-table tbody td {
+  padding: 0.8rem 1rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.dose-table tbody td:first-child {
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.dose-table .tag-pill {
+  display: inline-block;
+  font-size: 0.63rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  border: 1px solid currentColor;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+/* USAGE NOTES */
+.usage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+.usage-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: #0e0e0e;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.9rem 1rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.usage-item::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  min-width: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-top: 0.4rem;
+  opacity: 0.7;
+}
+
 /* DIVIDER */
 .divider {
   border: none;
