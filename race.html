@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MPCZ Race — Maximum Competition Formula</title>
+  <title>MPCZ Race | Maximum Competition Formula</title>
   <link rel="stylesheet" href="style.css">
   <style>
     :root {
-      --accent: #14b8a6;
-      --page-accent-glow: rgba(20,184,166,0.08);
+      --accent: #05C3DD;
+      --page-accent-glow: rgba(5,195,221,0.09);
     }
   </style>
 </head>
@@ -27,7 +27,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="daily.html">Daily</a></li>
       <li><a href="restore.html">Restore</a></li>
-      <li><a href="race.html" class="active" style="color:#14b8a6">Race</a></li>
+      <li><a href="race.html" class="active">Race</a></li>
       <li><a href="gas.html">Gas</a></li>
     </ul>
   </div>
@@ -37,14 +37,13 @@
   <div class="product-hero-inner">
     <div>
       <div class="product-badge">Competition Formula</div>
-      <h1>MPCZ<br><span>Race</span></h1>
+      <h1>MPCZ<br><span class="name">Race</span></h1>
       <p class="tagline">When finishing position is what matters. Race drives friction to its absolute minimum so every milliwatt of combustion energy reaches the track.</p>
     </div>
     <div class="bottle-placeholder">
-      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-        <path d="M9 2h6l1 4H8L9 2z"/><rect x="7" y="6" width="10" height="16" rx="2"/>
-      </svg>
+      <div class="bp-icon"></div>
       <span>Bottle Photo</span>
+      <div class="bottle-glow"></div>
     </div>
   </div>
 </section>
@@ -54,26 +53,37 @@
 <div class="section">
   <div class="section-title">What It Does</div>
   <h2>Every Watt<br><span class="dim">To the Wheels</span></h2>
-  <p class="body-text">MPCZ Race is the most aggressive formula in the lineup. Formulated for engines being pushed to their limits in competition, it delivers the lowest achievable friction coefficient across all contact surfaces. The result is measurably more power reaching the drivetrain, tighter engine response, and sustained peak performance across the full race duration — not just the first lap.</p>
+  <p class="body-text">MPCZ Race is the most aggressive formula in the lineup. Formulated for engines being pushed to their limits in competition, it delivers the lowest achievable friction coefficient across all contact surfaces. The result is measurably more power reaching the drivetrain, tighter engine response, and sustained peak performance across the full race duration â€” not just the first lap.</p>
 
-  <div class="feature-grid">
+  <div class="stat-row">
+    <div class="stat-item">
+      <div class="num">Max</div>
+      <div class="label">PTFE Concentration</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">0Â°</div>
+      <div class="label">Performance Fade</div>
+    </div>
+    <div class="stat-item">
+      <div class="num">25yr</div>
+      <div class="label">Formula Development</div>
+    </div>
+  </div>
+
+  <div class="feature-grid" style="margin-top:2.5rem">
     <div class="feature-item">
-      <div class="fi-icon"></div>
       <h4>Minimum Friction</h4>
-      <p>Maximum-concentration PTFE and MoS₂ compounds reduce boundary and hydrodynamic friction to the lowest achievable values under race conditions.</p>
+      <p>Maximum-concentration PTFE and MoSâ‚‚ compounds reduce boundary and hydrodynamic friction to the lowest achievable values under race conditions.</p>
     </div>
     <div class="feature-item">
-      <div class="fi-icon"></div>
       <h4>Peak Power Output</h4>
-      <p>By reducing parasitic friction losses, more combustion energy is converted to crankshaft rotation — delivering a measurable increase in usable power.</p>
+      <p>By reducing parasitic friction losses, more combustion energy is converted to crankshaft rotation â€” delivering a measurable increase in usable power.</p>
     </div>
     <div class="feature-item">
-      <div class="fi-icon"></div>
       <h4>Thermal Stability</h4>
       <p>Race-grade synthetic esters remain fully stable at the extreme temperatures generated during continuous full-throttle competition running.</p>
     </div>
     <div class="feature-item">
-      <div class="fi-icon"></div>
       <h4>Sustained Performance</h4>
       <p>Protection does not degrade across race duration. MPCZ Race maintains its performance profile from the first lap to the last, with no fade.</p>
     </div>
@@ -86,10 +96,10 @@
   <div class="section-title">Specifications</div>
   <h2>Technical<br><span class="dim">Data</span></h2>
   <ul class="specs-list">
-    <li><strong>Application</strong>Competition nitro RC — all displacement classes</li>
-    <li><strong>Dose Rate</strong>Race event dosing — see product directions</li>
+    <li><strong>Application</strong>Competition nitro RC | all displacement classes</li>
+    <li><strong>Dose Rate</strong>Race event dosing | see product directions</li>
     <li><strong>Base Technology</strong>Max-concentration synthetic ester blend</li>
-    <li><strong>Friction Modifier</strong>High-load PTFE + MoS₂ dual system</li>
+    <li><strong>Friction Modifier</strong>High-load PTFE + MoSâ‚‚ dual system</li>
     <li><strong>Surface Treatment</strong>Competition-grade ceramic barrier coat</li>
     <li><strong>Use Frequency</strong>Race events and qualifying sessions</li>
   </ul>
@@ -101,19 +111,19 @@
   <div class="section-title">Product Line</div>
   <h2>Other<br><span class="dim">Formulas</span></h2>
   <div class="products-grid">
-    <a class="product-card" href="daily.html" style="--card-accent:#e87722">
+    <a class="product-card" href="daily.html" style="--card-accent:#FFBF00;--card-accent-glow:rgba(255,191,0,0.06);--card-accent-shadow:rgba(255,191,0,0.15)">
       <div class="product-tag">Daily</div>
       <h3>MPCZ Daily</h3>
       <p>Everyday nitro engine protection.</p>
       <div class="arrow">View &rarr;</div>
     </a>
-    <a class="product-card" href="restore.html" style="--card-accent:#8b5cf6">
+    <a class="product-card" href="restore.html" style="--card-accent:#B53289;--card-accent-glow:rgba(181,50,137,0.07);--card-accent-shadow:rgba(181,50,137,0.2)">
       <div class="product-tag">Restore</div>
       <h3>MPCZ Restore</h3>
       <p>High mileage and worn engine formula.</p>
       <div class="arrow">View &rarr;</div>
     </a>
-    <a class="product-card" href="gas.html" style="--card-accent:#eab308">
+    <a class="product-card" href="gas.html" style="--card-accent:#50B848;--card-accent-glow:rgba(80,184,72,0.06);--card-accent-shadow:rgba(80,184,72,0.15)">
       <div class="product-tag">Gas</div>
       <h3>MPCZ Gas</h3>
       <p>2-stroke gasoline engine formula.</p>
@@ -125,10 +135,11 @@
 <footer>
   <div class="f-inner">
     <img src="logo.svg" alt="MPCZ">
-    <p>MPCZ &mdash; Nitro Fuel Additive &mdash; Engine Protectant</p>
-    <p>Bergen, Norway &mdash; Est. 1999</p>
+    <p>MPCZ | Nitro Fuel Additive | Engine Protectant</p>
+    <p>Bergen, Norway | Est. 1999</p>
   </div>
 </footer>
 
 </body>
 </html>
+
